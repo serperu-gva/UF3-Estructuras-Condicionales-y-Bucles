@@ -19,25 +19,22 @@ Aquesta unitat està centrada en l’estudi dels bucles, una estructura fonament
 
 ::: tip Objectius cuberts i relació amb RA
 
-Aquest tema aborda els conceptes pràctics i sintàctics d'un llenguatge de programació específic, que són la base per a escriure codi funcional.
+Aquest tema se centra en l'ús d'estructures que permeten repetir blocs de codi, un concepte fonamental en la programació per a automatitzar tasques.
 
-- Objectiu 3.5: Identificar els diferents tipus de dades i saber quan utilitzar-los.
-- Objectiu 3.6: Declarar i utilitzar variables i literals per a emmagatzemar dades.
-- Objectiu 3.7: Emprar operadors aritmètics, lògics i de comparació en expressions.
-- Objectiu 3.8: Implementar l'entrada i eixida de dades a través de la consola.
-- Objectiu 3.9: Escriure codi amb estructures de control alternatives (condicionals).
+- Objectiu 4.1: Escriure codi que faci ús de bucles **`for`** per a iterar sobre un rang de valors o una col·lecció.
+- Objectiu 4.2: Utilitzar els bucles **`while`** i **`do-while`** per a repetir l'execució d'un bloc de codi basant-se en una condició.
+- Objectiu 4.3: Reconéixer i emprar sentències de salt, com ara **`break`** i **`continue`**, per a modificar el flux d'execució d'un bucle.
+- Objectiu 4.4: Desenvolupar programes que combinen diferents estructures de control (condicionals i repetitives) per a resoldre problemes.
+- Objectiu 4.5: Emprar la funció **`Math.random()`** per a generar valors aleatoris i incloure-los en programes que utilitzin bucles.
 
 ---
 
 | Criteri d'Avaluació | Objectius Didàctics |
 | :--- | :--- |
-| **RA1-a**. S'han identificat els blocs que componen l'estructura d'un programa informàtic. | **Objectiu 3.2** |
-| **RA1-d**. S'han identificat els diferents tipus de variables i la utilitat específica de cadascun. | **Objectiu 3.5, Objectiu 3.6** |
-| **RA1-e**. S'ha modificat el codi d'un programa per a crear i utilitzar variables. | **Objectiu 3.6** |
-| **RA1-f**. S'han creat i utilitzat constants i literals. | **Objectiu 3.6** |
-| **RA1-g**. S'han classificat, reconegut i utilitzat en expressions els operadors del llenguatge. | **Objectiu 3.7** |
-| **RA1-h**. S'ha comprovat el funcionament de les conversions de tipus explícites i implícites. | **Objectiu 3.6** |
-| **RA1-i**. S'han introduït comentaris en el codi. | **Objectiu 3.5** |
+| **RA3-a**. S'ha escrit i provat codi que fa ús d'estructures de selecció. | *Aquest criteri es va cobrir en temes anteriors (Tema 2 o Tema 3.2, amb les "Estructures alternatives"). En aquest tema es reforça combinant-ho amb els bucles.* |
+| **RA3-b**. S'han utilitzat estructures de repetició. | **Objectiu 4.1, Objectiu 4.2, Objectiu 4.5** |
+| **RA3-c**. S'han reconegut les possibilitats de les sentències de salt. | **Objectiu 4.3** |
+| **RA3-e**. S'han creat programes executables utilitzant diferents estructures de control. | **Objectiu 4.4** |
 
 :::
 

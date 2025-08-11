@@ -19,18 +19,18 @@ export default ({
       title: 'UF4 - Estructuras repetitivas',
       description: 'Unidad 4 donde se introducen las estructuras repetitivas.',
       themeConfig: {
-        siteTitle: 'Estructuras repetitivas',
+        siteTitle: 'Estructuras </br>repetitivas',
         outline: { label: 'En esta página' },
           docFooter: { prev: 'Anterior', next: 'Siguiente' },
           nav: [
             { text: '🏠 Inicio', link: '/' },
             { text: '📚 Contenidos', items: [
-              { text: '1. Introducción', link: '/1-introduccion' },
+              { text: '1. Introducción', link: '/1-introduccio' },
               { text: '2. Bucle for', link: '/2-for' },
               { text: '3. Bucle while', link: '/3-while' },
               { text: '4. Bucle do-while', link: '/4-do-while' },
-              { text: "💡Ejemplos", link: '/9-exemples' },
-              { text: "✏️Ejercicios", link: '/10-exercicis' },
+              { text: "💡Ejemplos", link: '/5-exemples' },
+              { text: "✏️Ejercicios", link: '/6-exercicis' },
             ]}
           ]
       }
@@ -39,7 +39,7 @@ export default ({
       label: 'Valencià',
       lang: 'ca-ES',
       link: '/ca/',
-      title: 'U4 - Estrucutures repetitives',
+      title: 'U4 - Estrucutures </br>repetitives',
       description: 'Unitat 4 on s\'introduïxen les estructures repetitives.',
       themeConfig: {
         siteTitle: 'Estrucutures repetitives',
@@ -52,8 +52,8 @@ export default ({
               { text: '2. Bucle for', link: '/2-for' },
               { text: '3. Bucle while', link: '/3-while' },
               { text: '4. Bucle do-while', link: '/4-do-while' },
-              { text: "💡Exemples", link: '/9-exemples' },
-              { text: "✏️Exercicis", link: '/10-exercicis' },
+              { text: "💡Exemples", link: '/5-exemples' },
+              { text: "✏️Exercicis", link: '/6-exercicis' },
             ]}
           ]
       }
@@ -68,12 +68,12 @@ export default ({
     sidebar: {
       '/': [
         { text: '📚 Contenidos', items: [
-            { text: '1. Introducción', link: '/1-introduccion' },
+            { text: '1. Introducción', link: '/1-introduccio' },
             { text: '2. Bucle for', link: '/2-for' },
             { text: '3. Bucle while', link: '/3-while' },
             { text: '4. Bucle do-while', link: '/4-do-while' },
-            { text: "💡Ejemplos", link: '/9-exemples' },
-            { text: "✏️Ejercicios", link: '/10-exercicis' },
+            { text: "💡Ejemplos", link: '/5-exemples' },
+            { text: "✏️Ejercicios", link: '/6-exercicis' },
           ]
         },
         { text: '📚 Contenidos adicionales', items: [
@@ -84,18 +84,18 @@ export default ({
       ],
       '/ca/': [
         { text: '📚 Continguts', items: [
-            { text: '1. Introducció', link: '/1-introduccio' },
-            { text: '2. Bucle for', link: '/2-for' },
-            { text: '3. Bucle while', link: '/3-while' },
-            { text: '4. Bucle do-while', link: '/4-do-while' },
-            { text: "💡Exemples", link: '/9-exemples' },
-            { text: "✏️Exercicis", link: '/10-exercicis' },
+            { text: '1. Introducció', link: '/ca/1-introduccio' },
+            { text: '2. Bucle for', link: '/ca/2-for' },
+            { text: '3. Bucle while', link: '/ca/3-while' },
+            { text: '4. Bucle do-while', link: '/ca/4-do-while' },
+            { text: "💡Exemples", link: '/ca/5-exemples' },
+            { text: "✏️Exercicis", link: '/ca/6-exercicis' },
           ]
         },
         { text: '📚 Continguts addicionals', items: [
-          { text: 'Mètode Math.random()', link: '/7-add_random' },
-          { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+          { text: 'Mètode Math.random()', link: '/ca/7-add_random' },
+          { text: '<img src="../img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+          { text: '<img src="../img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
         ]}
       ]
     },
