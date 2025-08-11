@@ -1,68 +1,7 @@
-# 4. Bucle do-while
+# Aviso de traducción
 
-El bucle do-while es codifica le la següent forma:
+::: warning Aviso de traducción
+Estamos trabajando para ofrecer la versión en español con el nivel y la calidad que os merecéis. Este módulo fue impartido originalmente en valenciano en el centro docente y lo estamos adaptando progresivamente. Gracias por tu paciencia.
+:::
 
-<div style="display: flex; gap: 50px">
-
-<div style="flex: 1; padding: 10px; text-align: justify;">
-
-  ::: tabs
-  == Java
-
-```java
-do {
-    //bloc d'instruccions
-} while (condició);
-```
-
-  :::
-
-</div>
-<div style="flex: 0.5; padding: 10px; text-align: justify;">
-
-  ![Bucle do-while](/uf4/bucle_do_while.jpg)
-
-</div>
-</div>
-
-En aquesta mena de bucle, el bloc d'instruccions s'executa sempre almenys una vegada, i aqueix bloc d'instruccions s'executarà mentre **condició** s'avalue a true.
-
-**IMPORTANT**: En el bloc d'instruccions haurà d'existir alguna iteració que, en algun
-moment, faça que 'condició' s'avalue a 'false'. Si no el bucle no acabaria mai!
-
->**Exemple 4**: El mateix exemple 2 d'abans, fet amb un bucle do-while seria:
->
->:::: tabs
->=== Java
->
->::: tabs
->== Codi
->
->```java
->public static void main(String[] args){
->   Scanner sc = new Scanner(System.in);
->   int max, cont;
->   System.out.print("Introdueix el número màxim: ");
->   max = sc.nextInt();
->   cont = 1;
->   
->   do {
->       System.out.println("Número: " + cont);
->       cont++;
->   } while (cont <= max)
->}
->```
->
->== Eixida
->
->```plaintext
->Introdueix el número màxim: 5
->Número 1
->Número 2
->Número 3
->Número 4
->Número 5
->```
->
->:::
->::::
+<a href="/UD4/ca/index" style="display:inline-block;padding:0.4em 0.8em;border-radius:6px;background:#3e63dd;color:white;text-decoration:none;margin:4px 0;">Ver contenido en valenciano →</a>

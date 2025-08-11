@@ -1,12 +1,6 @@
-//import { defineConfig } from 'vitepress'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
-import { withMermaid } from "vitepress-plugin-mermaid";
 
-// https://vitepress.dev/reference/site-config
-export default withMermaid({
-  lang: 'ca-ES',
-  title: 'UF4',
-  description: 'Descripció',
+export default ({
   base: '/UF4/',
   outDir: '../docs',
   markdown: {
@@ -14,67 +8,100 @@ export default withMermaid({
       md.use(tabsMarkdownPlugin)
     }
   },
-  mermaid: {
-    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
-  },
-  mermaidPlugin: {
-    class: "mermaid my-class", // set additional css classes for parent container 
-  },
   head: [
-    //['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    //['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    //['link', { href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap', rel: 'stylesheet' }],
-    //['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
+  ['link', { rel: 'icon', href: '/img/logo.png' }],
   ],
+  locales: {
+    root: {
+      label: 'Español',
+      lang: 'es-ES',
+      link: '/',
+      title: 'UF4 - Estructuras repetitivas',
+      description: 'Unidad 4 donde se introducen las estructuras repetitivas.',
+      themeConfig: {
+        siteTitle: 'Estructuras repetitivas',
+        outline: { label: 'En esta página' },
+          docFooter: { prev: 'Anterior', next: 'Siguiente' },
+          nav: [
+            { text: '🏠 Inicio', link: '/' },
+            { text: '📚 Contenidos', items: [
+              { text: '1. Introducción', link: '/1-introduccion' },
+              { text: '2. Bucle for', link: '/2-for' },
+              { text: '3. Bucle while', link: '/3-while' },
+              { text: '4. Bucle do-while', link: '/4-do-while' },
+              { text: "💡Ejemplos", link: '/9-exemples' },
+              { text: "✏️Ejercicios", link: '/10-exercicis' },
+            ]}
+          ]
+      }
+    },
+    ca: {
+      label: 'Valencià',
+      lang: 'ca-ES',
+      link: '/ca/',
+      title: 'U4 - Estrucutures repetitives',
+      description: 'Unitat 4 on s\'introduïxen les estructures repetitives.',
+      themeConfig: {
+        siteTitle: 'Estrucutures repetitives',
+        outline: { label: 'En aquesta pàgina' },
+          docFooter: { prev: 'Anterior', next: 'Següent' },
+          nav: [
+            { text: '🏠 Inici', link: '/ca/index' },
+            { text: '📚 Continguts', items: [
+              { text: '1. Introducció', link: '/1-introduccio' },
+              { text: '2. Bucle for', link: '/2-for' },
+              { text: '3. Bucle while', link: '/3-while' },
+              { text: '4. Bucle do-while', link: '/4-do-while' },
+              { text: "💡Exemples", link: '/9-exemples' },
+              { text: "✏️Exercicis", link: '/10-exercicis' },
+            ]}
+          ]
+      }
+    }
+  },
+  // Tema por idioma
   themeConfig: {
-    siteTitle: 'Bucles',
     logo: '/img/logo.png',
-    nav: [
-      { text: '🏠 Inici', link: '/' },
-      { text: '📋 Objectius', link: '/objectius' },
-      { text: '📚 Continguts', items: [
-        { text: '1. Introducció', link: '/1-introduccio' },
-        { text: '2. Bucle for', link: '/2-for' },
-        { text: '3. Bucle while', link: '/3-while' },
-        { text: '4. Bucle do-while', link: '/4-do-while' },
-        { text: 'Exemples', link: '/5-exemples' },
-        { text: 'Exercicis', link: '/6-exercicis' },
-      ]},
-      { text: '📚 Continguts addicionals', items: [
-        { text: 'Mètode Math.random()', link: '/7-add_random' },
-      ]}
-    ],
-    sidebar: [
-      {
-        text: '📚 Continguts',
-        items: [
-          { text: '1. Introducció', link: '/1-introduccio' },
-          { text: '2. Bucle for', link: '/2-for' },
-          { text: '3. Bucle while', link: '/3-while' },
-          { text: '4. Bucle do-while', link: '/4-do-while' },
-          { text: 'Exemples', link: '/5-exemples' },
-          { text: 'Exercicis', link: '/6-exercicis' },
-        ]
-      },
-      { text: '📚 Continguts addicionals', items: [
-        { text: 'Mètode Math.random()', link: '/7-add_random' },
-        { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-        { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
-      ]}
-    ],
     socialLinks: [
-      { icon: 'github', link: '' }
+      { icon: 'github', link: 'https://github.com/GGEdu' }
     ],
+    sidebar: {
+      '/': [
+        { text: '📚 Contenidos', items: [
+            { text: '1. Introducción', link: '/1-introduccion' },
+            { text: '2. Bucle for', link: '/2-for' },
+            { text: '3. Bucle while', link: '/3-while' },
+            { text: '4. Bucle do-while', link: '/4-do-while' },
+            { text: "💡Ejemplos", link: '/9-exemples' },
+            { text: "✏️Ejercicios", link: '/10-exercicis' },
+          ]
+        },
+        { text: '📚 Contenidos adicionales', items: [
+          { text: 'Metodo Math.random()', link: '/7-add_random' },
+          { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+          { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+        ]}
+      ],
+      '/ca/': [
+        { text: '📚 Continguts', items: [
+            { text: '1. Introducció', link: '/1-introduccio' },
+            { text: '2. Bucle for', link: '/2-for' },
+            { text: '3. Bucle while', link: '/3-while' },
+            { text: '4. Bucle do-while', link: '/4-do-while' },
+            { text: "💡Exemples", link: '/9-exemples' },
+            { text: "✏️Exercicis", link: '/10-exercicis' },
+          ]
+        },
+        { text: '📚 Continguts addicionals', items: [
+          { text: 'Mètode Math.random()', link: '/7-add_random' },
+          { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+          { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+        ]}
+      ]
+    },
     footer: {
-      message: "CEEDCV - Centre Específic d'Educació a Distància de la Comunitat Valenciana",
-      copyright: 'Copyright © 2024-2025'
-    },
-    outline: {
-      label: 'En aquesta pàgina'
-    },
-    docFooter: {
-      prev: 'Anterior',
-      next: 'Següent'
+      message: '<img src="/img/logo-autor.png" alt="Autor Principal" style="height:60px; margin: 0 auto; display:block;" />',
+      copyright: 'Copyright © 2025'
     }
   }
 })
