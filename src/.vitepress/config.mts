@@ -48,12 +48,12 @@ export default ({
           nav: [
             { text: '🏠 Inici', link: '/ca/index' },
             { text: '📚 Continguts', items: [
-              { text: '1. Introducció', link: '/1-introduccio' },
-              { text: '2. Bucle for', link: '/2-for' },
-              { text: '3. Bucle while', link: '/3-while' },
-              { text: '4. Bucle do-while', link: '/4-do-while' },
-              { text: "💡Exemples", link: '/5-exemples' },
-              { text: "✏️Exercicis", link: '/6-exercicis' },
+              { text: '1. Introducció', link: '/ca/1-introduccio' },
+              { text: '2. Bucle for', link: '/ca/2-for' },
+              { text: '3. Bucle while', link: '/ca/3-while' },
+              { text: '4. Bucle do-while', link: '/ca/4-do-while' },
+              { text: "💡Exemples", link: '/ca/5-exemples' },
+              { text: "✏️Exercicis", link: '/ca/6-exercicis' },
             ]}
           ]
       }

@@ -88,3 +88,9 @@ Notas:
 - Los puertos 5173 (dev) y 24678 (HMR) deben estar libres.
 - El contenedor ejecuta `npm ci` al iniciar para asegurar dependencias limpias.
 - El volumen /app/node_modules evita que tu node_modules host sobrescriba el del contenedor.
+
+# TODOS PENDIENTES
+
+- Traducir el contenido a castellano.
+- Completar el apartado de sentencias de salto como `break` i `continue`.
+- Añadir ejemplos prácticos y ejercicios sobre saltos en estructuras repetitivas.
