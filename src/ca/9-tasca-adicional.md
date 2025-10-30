@@ -31,7 +31,7 @@ La **Conjectura de Collatz** diu:
 ---
 
 
-> ## Exemple d’execució
+## ✅ Exemple d’execució
 >
 >  Introdueix un nombre positiu: 6
 > 
