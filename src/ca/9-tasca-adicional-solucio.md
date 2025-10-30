@@ -70,7 +70,8 @@ public class Collatz {
 
         // ✅ 5. Mostrar el numero total de passos
         System.out.println("\nNumero total de passos: " + passos);
-
+    }
+}   
  
 ``
 
