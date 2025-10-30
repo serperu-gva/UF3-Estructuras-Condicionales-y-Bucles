@@ -32,9 +32,9 @@ public class App {
 
 ## 📋 Enunciat
 > a) Crea un programa que vaja demanant números fins que es llija un 0.
-b) Afig una variable que comptabilitze quants números s'han llegit.
-c) Mostra quants d'eixos han sigut positius.
-d) Mostra la mitjana de tots els números llegits (sense comptar el 0 final).
+> b) Afig una variable que comptabilitze quants números s'han llegit.
+> c) Mostra quants d'eixos han sigut positius.
+> d) Mostra la mitjana de tots els números llegits (sense comptar el 0 final).
 
 ---
 
