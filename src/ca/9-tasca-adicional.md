@@ -31,10 +31,12 @@ La **Conjectura de Collatz** diu:
 ---
 
 
-!!! tip "Exemple d’execució"
-
-    Introdueix un nombre positiu: 6
-    Seqüència de Collatz per al nombre 6:
-    6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1
-
-    Nombre total de passos: 8
+> ## Exemple d’execució
+>
+>  Introdueix un nombre positiu: 6
+> 
+>  Seqüència de Collatz per al nombre 6:
+> 
+>  6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+>
+>   Nombre total de passos: 8
