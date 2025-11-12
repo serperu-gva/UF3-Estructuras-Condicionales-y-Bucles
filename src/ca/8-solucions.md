@@ -512,6 +512,79 @@ public class BibliotecaPrestecs {
 }
 ```
 
+
+
+## 📦 Codi Java (Alternativa en LocalDate i ChronoUnit)
+
+```java
+import java.util.Scanner;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+
+public class BibliotecaPrestecs {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int totalPrestecs = 0;
+        int llibresEndarrerits = 0;
+        double totalRecarrecs = 0.0;
+
+        // Data actual del sistema
+        LocalDate avui = LocalDate.now();
+
+        while (true) {
+            System.out.println("Introdueix el codi del llibre (o 'fi' per acabar):");
+            String codi = sc.nextLine();
+            if (codi.equalsIgnoreCase("fi")) {
+                break;
+            }
+
+            System.out.println("Introdueix el títol del llibre:");
+            String titol = sc.nextLine();
+
+            System.out.println("Introdueix el dia de devolució prevista:");
+            int dia = sc.nextInt();
+            System.out.println("Introdueix el mes de devolució prevista:");
+            int mes = sc.nextInt();
+            System.out.println("Introdueix l'any de devolució prevista:");
+            int any = sc.nextInt();
+            sc.nextLine(); // Neteja el buffer
+
+            LocalDate devolucioPrevista = LocalDate.of(any, mes, dia);
+
+            System.out.println();
+            System.out.println("--- Informació del préstec ---");
+            System.out.println("Codi: " + codi);
+            System.out.println("Títol: " + titol);
+            System.out.println("Data de devolució prevista: " + devolucioPrevista);
+            System.out.println("Data actual: " + avui);
+
+            if (avui.isAfter(devolucioPrevista)) {
+                long diesRetard = ChronoUnit.DAYS.between(devolucioPrevista, avui);
+                double recarrec = diesRetard * 0.50;
+
+                llibresEndarrerits++;
+                totalRecarrecs += recarrec;
+
+                System.out.println("Està endarrerit! Dies de retard: " + diesRetard);
+                System.out.println("Recàrrec: " + recarrec + " €");
+            } else {
+                System.out.println("No està endarrerit.");
+            }
+
+            totalPrestecs++;
+            System.out.println("------------------------------\n");
+        }
+
+        System.out.println();
+        System.out.println("=== Resum Final ===");
+        System.out.println("Nombre de llibres prestats: " + totalPrestecs);
+        System.out.println("Llibres endarrerits: " + llibresEndarrerits);
+        System.out.println("Recàrrecs totals: " + totalRecarrecs + " €");
+    }
+}
+
+```
 # 🧠 Exercici 8
 
 ## 📋 Enunciat
