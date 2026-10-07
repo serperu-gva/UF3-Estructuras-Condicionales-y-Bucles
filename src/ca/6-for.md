@@ -1,4 +1,4 @@
-# 2. Bucle for
+# 6. Bucle for
 
 El bucle for es codifica de la següent forma:
 

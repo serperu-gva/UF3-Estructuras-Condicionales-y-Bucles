@@ -1,31 +1,29 @@
-# UF04. Estrucutures repetitives
+# UF03. Estrucutures Condicionals y Bucles
 
 ::: tip Informació del curs
-**Autors:** Guillermo Garrido Portes / David Tur Sanmateu
+**Autors:** Guillermo Garrido Portes / David Tur Sanmateu / María Bañuls / Sergio Pérez
 
 **Any:** 2025
-
-**Centre:** CEEDCV - Centre Específic d'Educació a Distància de la Comunitat Valenciana
 
 ![Logo CC](/img/logo-cc.png){logo}
 
 :::
 
 ::: info Síntesi de la unitat
-Aquesta unitat està centrada en l’estudi dels bucles, una estructura fonamental en la programació que permet repetir instruccions de manera controlada. Aprendreu quan i com utilitzar els diferents tipus de bucles, així com les seues aplicacions pràctiques per resoldre problemes repetitius de forma eficient.
+Aquesta unitat està centrada en l’estudi de les estructures condicionals, incloent els bucles. Els condicionals son fonamentals en la programació y permeten separar diferents execucions depenent de les dades d'entrada introduïdes, mentre que els bucles ens permeten repetir instruccions de manera controlada. Aprendreu quan i com utilitzar estes estructures, així com les seues aplicacions pràctiques per resoldre problemes de forma eficient.
 :::
 
 ## 📋 Objectius del Curs {.animate-title}
 
 ::: tip Objectius cuberts i relació amb RA
 
-Aquest tema se centra en l'ús d'estructures que permeten repetir blocs de codi, un concepte fonamental en la programació per a automatitzar tasques.
+Aquest tema se centra en l'ús d'estructures que estrableixen execucions alternatives depenent de les dades d'entrada i d'estructures que permeten repetir blocs de codi, un concepte fonamental en la programació per a automatitzar tasques.
 
-- Objectiu 4.1: Escriure codi que faci ús de bucles **`for`** per a iterar sobre un rang de valors o una col·lecció.
-- Objectiu 4.2: Utilitzar els bucles **`while`** i **`do-while`** per a repetir l'execució d'un bloc de codi basant-se en una condició.
-- Objectiu 4.3: Reconéixer i emprar sentències de salt, com ara **`break`** i **`continue`**, per a modificar el flux d'execució d'un bucle.
-- Objectiu 4.4: Desenvolupar programes que combinen diferents estructures de control (condicionals i repetitives) per a resoldre problemes.
-- Objectiu 4.5: Emprar la funció **`Math.random()`** per a generar valors aleatoris i incloure-los en programes que utilitzin bucles.
+- Objectiu 3.1: Escriure codi amb estructures de control alternatives (condicionals).
+- Objectiu 3.2: Escriure codi que faci ús de bucles **`for`** per a iterar sobre un rang de valors o una col·lecció.
+- Objectiu 3.3: Utilitzar els bucles **`while`** i **`do-while`** per a repetir l'execució d'un bloc de codi basant-se en una condició.
+- Objectiu 3.4: Reconéixer i emprar sentències de salt, com ara **`break`** i **`continue`**, per a modificar el flux d'execució d'un bucle.
+- Objectiu 3.5: Desenvolupar programes que combinen diferents estructures de control (condicionals i repetitives) per a resoldre problemes.
 
 ---
 

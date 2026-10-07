@@ -1,6 +1,6 @@
-# 4. Bucle do-while
+# 4. Bucle while
 
-El bucle do-while es codifica le la següent forma:
+El bucle while es codifica de la següent forma: 
 
 <div style="display: flex; gap: 50px">
 
@@ -10,9 +10,9 @@ El bucle do-while es codifica le la següent forma:
   == Java
 
 ```java
-do {
+while (condició) {
     //bloc d'instruccions
-} while (condició);
+}
 ```
 
   :::
@@ -20,17 +20,14 @@ do {
 </div>
 <div style="flex: 0.5; padding: 10px; text-align: justify;">
 
-  ![Bucle do-while](/uf4/bucle_do_while.jpg)
+  ![Bucle while](/uf4/bucle_while.jpg)
 
 </div>
 </div>
 
-En aquesta mena de bucle, el bloc d'instruccions s'executa sempre almenys una vegada, i aqueix bloc d'instruccions s'executarà mentre **condició** s'avalue a true.
+El bloc d'instruccions s'executa mentre es compleix una condició (mentre condició s'avalue a true). **La condició es comprova ABANS de començar** a executar per primera vegada el bucle, per la qual cosa si s'avalua a false en la primera iteració, llavors el bloc d'accions no s'executarà cap vegada. El mateix exemple 2 d'abans, fet amb un bucle while seria:
 
-**IMPORTANT**: En el bloc d'instruccions haurà d'existir alguna iteració que, en algun
-moment, faça que 'condició' s'avalue a 'false'. Si no el bucle no acabaria mai!
-
->**Exemple 4**: El mateix exemple 2 d'abans, fet amb un bucle do-while seria:
+>**Exemple 3**:
 >
 >:::: tabs
 >=== Java
@@ -45,11 +42,10 @@ moment, faça que 'condició' s'avalue a 'false'. Si no el bucle no acabaria mai
 >   System.out.print("Introdueix el número màxim: ");
 >   max = sc.nextInt();
 >   cont = 1;
->   
->   do {
+>   while (cont <= max){
 >       System.out.println("Número: " + cont);
 >       cont++;
->   } while (cont <= max)
+>   }
 >}
 >```
 >

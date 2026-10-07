@@ -1,7 +1,7 @@
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 export default ({
-  base: '/UF4-fRcm3wHyfk2FQFp86GHV/',
+  base: '/UF3-Estructuras-Condicionales-y-Bucles/',
   outDir: '../docs',
   markdown: {
     config(md) {
@@ -16,44 +16,23 @@ export default ({
       label: 'Español',
       lang: 'es-ES',
       link: '/',
-      title: 'UF4 - Estructuras repetitivas',
-      description: 'Unidad 4 donde se introducen las estructuras repetitivas.',
+      title: 'UF3 - Estructuras condicionales y bucles',
+      description: 'Unidad 3 donde se introducen las estructuras condicionales y bucles.',
       themeConfig: {
-        siteTitle: 'Estructuras </br>repetitivas',
+        siteTitle: 'Estructuras condicionales</br> y bucles',
         outline: { label: 'En esta página' },
           docFooter: { prev: 'Anterior', next: 'Siguiente' },
           nav: [
             { text: '🏠 Inicio', link: '/' },
             { text: '📚 Contenidos', items: [
               { text: '1. Introducción', link: '/1-introduccio' },
-              { text: '2. Bucle for', link: '/2-for' },
-              { text: '3. Bucle while', link: '/3-while' },
-              { text: '4. Bucle do-while', link: '/4-do-while' },
-              { text: "💡Ejemplos", link: '/5-exemples' },
-              { text: "✏️Ejercicios", link: '/6-exercicis' },
-            ]}
-          ]
-      }
-    },
-    ca: {
-      label: 'Valencià',
-      lang: 'ca-ES',
-      link: '/ca/',
-      title: 'U4 - Estrucutures </br>repetitives',
-      description: 'Unitat 4 on s\'introduïxen les estructures repetitives.',
-      themeConfig: {
-        siteTitle: 'Estrucutures repetitives',
-        outline: { label: 'En aquesta pàgina' },
-          docFooter: { prev: 'Anterior', next: 'Següent' },
-          nav: [
-            { text: '🏠 Inici', link: '/ca/index' },
-            { text: '📚 Continguts', items: [
-              { text: '1. Introducció', link: '/ca/1-introduccio' },
-              { text: '2. Bucle for', link: '/ca/2-for' },
-              { text: '3. Bucle while', link: '/ca/3-while' },
-              { text: '4. Bucle do-while', link: '/ca/4-do-while' },
-              { text: "💡Exemples", link: '/ca/5-exemples' },
-              { text: "✏️Exercicis", link: '/ca/6-exercicis' },
+              { text: '2. Estructuras Condicionales', link: '/2-estructures-condicionals' },
+              { text: '3. Operador Ternario', link: '/3-operador_cond-ternari' },
+              { text: '4. Bucle while', link: '/4-while' },
+              { text: '5. Bucle do-while', link: '/5-do-while' },
+              { text: '6. Bucle for', link: '/6-for' },
+              { text: "💡Ejemplos", link: '/8-exemples' },
+              { text: "✏️Ejercicios", link: '/7-exercicis' }
             ]}
           ]
       }
@@ -74,29 +53,9 @@ export default ({
             { text: '4. Bucle do-while', link: '/4-do-while' },
             { text: "💡Ejemplos", link: '/5-exemples' },
             { text: "✏️Ejercicios", link: '/6-exercicis' },
+            { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' }
           ]
         },
-        { text: '📚 Contenidos adicionales', items: [
-          { text: 'Metodo Math.random()', link: '/7-add_random' },
-          { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
-        ]}
-      ],
-      '/ca/': [
-        { text: '📚 Continguts', items: [
-            { text: '1. Introducció', link: '/ca/1-introduccio' },
-            { text: '2. Bucle for', link: '/ca/2-for' },
-            { text: '3. Bucle while', link: '/ca/3-while' },
-            { text: '4. Bucle do-while', link: '/ca/4-do-while' },
-            { text: "💡Exemples", link: '/ca/5-exemples' },
-            { text: "✏️Exercicis", link: '/ca/6-exercicis' },
-          ]
-        },
-        { text: '📚 Continguts addicionals', items: [
-          { text: 'Mètode Math.random()', link: '/ca/7-add_random' },
-          { text: '<img src="../img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="../img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
-        ]}
       ]
     },
     footer: {
