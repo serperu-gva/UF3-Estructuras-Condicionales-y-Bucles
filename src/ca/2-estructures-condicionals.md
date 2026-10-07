@@ -161,7 +161,7 @@ En moltes ocasions, s'encadenen estructures alternatives, de manera que es pregu
 
 ::: info Important
 Per a simplificar la comprensió del codi, existeixen llenguatges que permeten l'ús de l'**operador condicional** (també conegut com a operador ternari) per a realitzar operacions condicionals de manera més concisa. Aquest operador és útil per a assignar valors a variables en funció d'una condició, evitant estructures alternatives més llargues.
-👉 **Consulta l'apartat "[Operador condicional](/13-operador_cond)"** per a coneixer com s'utilitza l'operador condicional.
+👉 **Consulta l'apartat "[Operador condicional](/3-operador_cond-ternari)"** per a coneixer com s'utilitza l'operador condicional.
 :::
 
 ## 2.3. Estructura Alternativa Múltiple

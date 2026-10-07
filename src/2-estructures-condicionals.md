@@ -160,7 +160,7 @@ Es muy recomendable usar la tecla tabulador en las instrucciones de cada bloque.
 
 ::: info Importante
 Para simplificar la comprensión del código, existen lenguajes que permiten el uso del **operador condicional** (también conocido como operador ternario) para realizar operaciones condicionales de manera más concisa. Este operador es útil para asignar valores a variables en función de una condición, evitando estructuras alternativas más largas.
-👉 **Consulta el apartado "[Operador condicional](/13-operador_cond)"** para conocer cómo se utiliza el operador condicional.
+👉 **Consulta el apartado "[Operador condicional](/3-operador_cond-ternari)"** para conocer cómo se utiliza el operador condicional.
 :::
 
 ## 2.3. Estructura Alternativa Múltiple
