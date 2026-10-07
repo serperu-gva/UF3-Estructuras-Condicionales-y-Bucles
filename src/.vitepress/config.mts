@@ -54,8 +54,8 @@ export default ({
               { text: '5. Bucle do-while', link: '/5-do-while' },
               { text: '6. Bucle for', link: '/6-for' },
               { text: "💡Ejemplos", link: '/8-exemples' },
-              { text: "✏️Ejercicios", link: '/7-exercicis' }
-            { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' }
+              { text: "✏️Ejercicios", link: '/7-exercicis' },
+              { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' }
           ]
         },
       ]
