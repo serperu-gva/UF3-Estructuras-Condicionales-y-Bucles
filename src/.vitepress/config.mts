@@ -48,11 +48,13 @@ export default ({
       '/': [
         { text: '📚 Contenidos', items: [
             { text: '1. Introducción', link: '/1-introduccio' },
-            { text: '2. Bucle for', link: '/2-for' },
-            { text: '3. Bucle while', link: '/3-while' },
-            { text: '4. Bucle do-while', link: '/4-do-while' },
-            { text: "💡Ejemplos", link: '/5-exemples' },
-            { text: "✏️Ejercicios", link: '/6-exercicis' },
+              { text: '2. Estructuras Condicionales', link: '/2-estructures-condicionals' },
+              { text: '3. Operador Ternario', link: '/3-operador_cond-ternari' },
+              { text: '4. Bucle while', link: '/4-while' },
+              { text: '5. Bucle do-while', link: '/5-do-while' },
+              { text: '6. Bucle for', link: '/6-for' },
+              { text: "💡Ejemplos", link: '/8-exemples' },
+              { text: "✏️Ejercicios", link: '/7-exercicis' }
             { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' }
           ]
         },
